@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Kufam', cursive;
+  margin: auto;
+}
+.first-container{
+  background-color: #1a1a2e;
+  width: 100%;
+  position: relative;
+  height: 700px;
+}
+.first-container nav{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  padding: 0 70px;
+  position: relative;
+  z-index: 2;
+}
+nav h1, nav div{
+  display: inline-block;
+  margin-top:10px;
+}
+ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  padding-right: 20px;
+  opacity: .8;
+}
+nav ul li:hover{
+  opacity: 1;
+  cursor:pointer;
+}
+.special{
+  border-radius: 0;
+  width: 150px;
+  height: 50px;
+  z-index: 2;
+}
+.restOfFirstContainer{
+  color: white;
+  padding: 70px;
+}
+.restOfFirstContainer h1{
+  margin-top: 50px;
+  font-size: 3.5rem;
+}
+ p{
+  opacity: .8;
+}
+.first-container hr{
+  border-top: 1px solid gray;
+  width: 180px;
+  position: absolute;
+  left: 70px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.intro-picture{
+  position: absolute;
+  top: 150px;
+  right: 150px;
+}
+.right-desktop-picture{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: 1;
+}
+.left-desktop-picture{
+  position: absolute;
+  top: 450px;
+  left:0;
+  width: 150px;
+  height: 387px;
+}
+.second-container{
+  padding: 150px 70px;
+  position: relative;
+}
+.second-container hr{
+  border-top: 1px solid gray;
+  width: 180px;
+  position: absolute;
+  left: 70px;
+  top: 60px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.row{
+  margin-top: 50px;
+}
+.restOfSecondContainer{
+  background-color:#1a1a2e;
+  height: 200px;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+}
+h2{
+  margin: 30px 0;
+}
+.second-container h1{
+  margin-top: 50px;
+}
+.restOfSecondContainer img{
+  position: absolute;
+  right: 0;
+  top:-200px;
+  z-index: 1;
+}
+.last-container{
+  background-color:#f7f6f6;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+.footer-photo{
+  position: absolute;
+  top:-70px;
+  left:-200px;
+  z-index: 2;
+}
+.last-container nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  padding: 0 70px;
+}
+.last-container nav ul{
+  margin-top: 20px;
+}
+.last-components{
+  padding: 0 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.last-components ul{
+  padding: 0;
+}
+.attribution{
+  text-align: center;
+  margin: 20px auto;
+}
